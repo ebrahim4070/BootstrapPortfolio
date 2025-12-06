@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebrahim Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;600;700;900&family=Stack+Sans+Notch:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-1 fw-bold" href="#">Ebrahim</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#education">Education</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold" href="#" data-bs-toggle="dropdown">Achievement</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Academic</a></li>
+              <li><a class="dropdown-item" href="#">Co-Curricular</a></li>
+              <li><a class="dropdown-item" href="#">Others</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Carousel Start -->
+  <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="EbrahimPic.jpg" class="d-block w-100 img-thumbnail" alt="Ebrahim">
+      </div>
+      <div class="carousel-item">
+        <img src="Ebrahim1.JPG" class="d-block w-100 img-thumbnail" alt="Ebrahim">
+      </div>
+      <div class="carousel-item">
+        <img src="Ebrahim2.JPG" class="d-block w-100 img-thumbnail" alt="Ebrahim">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!-- Carousel End -->
+
+  <!-- Home Section -->
+  <section class="about-section" data-aos="fade-up" id="home">
+    <div class="container text-center">
+      <h1 class="fw-bold mb-3">Home</h1>
+      <hr class="w-25 m-auto mb-5">
+    </div>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 mb-3">
+        <img src="EbrahimPic.jpg" class="img-fluid rounded float-md-end ms-md-3" alt="Ebrahim">
+      </div>
+      <div class="col-md-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container text-center">
+      <h1 class="fw-bold mb-3">About Me</h1>
+      <hr class="w-25 m-auto mb-5">
+
+      <div class="row align-items-center">
+        <!-- Text Column -->
+        <div class="col-md-6 mb-4 text-start">
+          <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">This is the first item's accordion body.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">This is the second item's accordion body.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">This is the third item's accordion body.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="col-md-6 text-center">
+          <img src="Ebrahim1.JPG" class="img-fluid rounded shadow img-thumbnail" alt="Ebrahim Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="about-section">
+    <div class="container text-center" data-aos="fade-up">
+      <h1 class="fw-bold mb-3">Projects</h1>
+      <hr class="w-25 m-auto mb-5">
+    </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- Project 1 -->
+        <div class="col" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card shadow-lg border-0 h-100">
+            <img src="ICTpic.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">ICT Alumni Management System</h5>
+              <p class="card-text">A full-stack system using Spring Boot, React, MySQL for managing ICT alumni data.</p>
+              <a href="https://github.com/ebrahim4070/Alumni-Management-System" class="btn btn-primary mt-2" target="_blank">View Source</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card shadow-lg border-0 h-100">
+            <img src="Ospic.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">OS Algorithm Simulator</h5>
+              <p class="card-text">Web tool: FCFS, SJF, RR, SCAN, LRU, FIFO, Optimal, Banker's Algorithm.</p>
+              <a href="#" class="btn btn-primary mt-2" target="_blank">View Source</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card shadow-lg border-0 h-100">
+            <img src="Birthday.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">JavaFX Birthday Manager</h5>
+              <p class="card-text">A desktop app with MySQL, search by ID, notifications & SMTP email sending.</p>
+              <a href="https://github.com/ebrahim4070/BirthDayProject" class="btn btn-primary mt-2" target="_blank">View Source</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="about-section">
+    <div class="container text-center">
+      <h1 class="fw-bold mb-3">Contact</h1>
+      <hr class="w-25 m-auto mb-5">
+    </div>
+
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control">
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">Password</label>
+          <input type="password" class="form-control">
+        </div>
+
+        <div class="col-12">
+          <label class="form-label">Address</label>
+          <input type="text" class="form-control" placeholder="1234 Main St">
+        </div>
+
+        <div class="col-12">
+          <label class="form-label">Address 2</label>
+          <input type="text" class="form-control" placeholder="Apartment, studio, or floor">
+        </div>
+
+        <div class="col-md-6">
+          <label class="form-label">City</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div class="col-md-4">
+          <label class="form-label">State</label>
+          <select class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+
+        <div class="col-md-2">
+          <label class="form-label">Zip</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">Check me out</label>
+          </div>
+        </div>
+
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Start -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-1">© 2025 Ebrahim. All Rights Reserved.</p>
+    <small>Designed & Developed by Ebrahim</small>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
